@@ -70,7 +70,9 @@
         "ghcr.io/devcontainers/features/go:1": {
             "version": "latest"
         },
-        "./local-features/jekyll": "latest",
+        "./local-features/jekyll": {
+            "version": "latest"
+        },
         "ghcr.io/devcontainers/features/oryx:1": "latest",
         "./local-features/setup-user": "latest",
         "./local-features/patch-python": {},
